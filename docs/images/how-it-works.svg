@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" width="860" height="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <rect x="0" y="0" width="860" height="210" rx="12" fill="#FFFFF4" stroke="#D8D8C0"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#336666"/>
+    </marker>
+  </defs>
+
+  <!-- 1. backup -->
+  <rect x="30" y="45" width="210" height="120" rx="10" fill="#fff" stroke="#336666" stroke-width="2"/>
+  <text x="135" y="78" text-anchor="middle" font-size="13" fill="#336666" font-weight="bold">1 · YOUR BACKUP</text>
+  <text x="135" y="108" text-anchor="middle" font-size="16" fill="#222" font-family="Menlo,Consolas,monospace">company.sql</text>
+  <text x="135" y="134" text-anchor="middle" font-size="12" fill="#666">from SQL-Ledger</text>
+  <text x="135" y="151" text-anchor="middle" font-size="12" fill="#666">System → Backup</text>
+
+  <line x1="248" y1="105" x2="318" y2="105" stroke="#336666" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- 2. script -->
+  <rect x="325" y="45" width="210" height="120" rx="10" fill="#336666"/>
+  <text x="430" y="78" text-anchor="middle" font-size="13" fill="#CFE3E3" font-weight="bold">2 · ARCHIVE MAKER</text>
+  <text x="430" y="108" text-anchor="middle" font-size="16" fill="#fff" font-family="Menlo,Consolas,monospace">make_archive.py</text>
+  <text x="430" y="134" text-anchor="middle" font-size="12" fill="#E4EFEF">double-click to run</text>
+  <text x="430" y="151" text-anchor="middle" font-size="12" fill="#E4EFEF">no database needed</text>
+
+  <line x1="543" y1="105" x2="613" y2="105" stroke="#336666" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- 3. archive -->
+  <rect x="620" y="45" width="210" height="120" rx="10" fill="#fff" stroke="#336666" stroke-width="2"/>
+  <text x="725" y="78" text-anchor="middle" font-size="13" fill="#336666" font-weight="bold">3 · HTML ARCHIVE</text>
+  <text x="725" y="108" text-anchor="middle" font-size="16" fill="#222" font-family="Menlo,Consolas,monospace">archive/index.html</text>
+  <text x="725" y="134" text-anchor="middle" font-size="12" fill="#666">open in any browser</text>
+  <text x="725" y="151" text-anchor="middle" font-size="12" fill="#666">works offline, read-only</text>
+
+  <text x="430" y="196" text-anchor="middle" font-size="12" fill="#888">Everything happens on your own computer — nothing is uploaded.</text>
+</svg>

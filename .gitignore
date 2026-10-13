@@ -1,0 +1,9 @@
+# Never commit accounting data
+*.sql
+*.sql.gz
+*.zip
+archive/
+!backup/README.txt
+.DS_Store
+__pycache__/
+!demo/demo-company.sql
